@@ -2,7 +2,7 @@ import React from "react";
 
 const Section1 = () => {
   return (
-    <section className="bg-white min-h-[86vh] flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <section className="bg-white min-h-[87vh] flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
         <div className="w-full lg:w-1/2 space-y-8">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-gray-900 leading-tight">
@@ -36,8 +36,8 @@ const Section1 = () => {
                 alt="Product Illustration"
                 className="max-w-full h-auto transition duration-300 transform group-hover:scale-105"
               />
-              <div className="absolute -top-10 -left-6 w-40 h-40 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-              <div className="absolute -bottom-10 -right-6 w-40 h-40 bg-orange-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+              <div className="absolute -top-10 -left-6 w-40 h-40 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 "></div>
+              <div className="absolute -bottom-10 -right-6 w-40 h-40 bg-red-400 rounded-full mix-blend-multiply filter blur-xl opacity-70  "></div>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ const Button = (props) => {
   } = props;
   return (
     <button
-      className={`${variant} hover:bg-blue-700 ${textColor} font-medium py-2 px-6 rounded-full transition-all`}
+      className={`${variant} hover:bg-blue-700 ${textColor} font-medium py-4 px-8 rounded-full transition-all`}
     >
       {children}
     </button>

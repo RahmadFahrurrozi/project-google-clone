@@ -3,7 +3,7 @@ import Button from "../components/button";
 
 const Section2 = () => {
   return (
-    <section className="bg-white flex justify-between min-h-[50vh] items-center max-w-7xl mx-auto">
+    <section className="bg-white flex justify-between min-h-[87vh] items-center max-w-7xl mx-auto">
       <div className="w-1/2">
         <div className="text-4xl font-bold flex flex-col gap-4">
           <h2>Mentransformasi cara kita</h2>
