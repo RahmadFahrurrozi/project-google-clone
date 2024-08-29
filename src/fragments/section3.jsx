@@ -3,7 +3,7 @@ import Button from "../components/button";
 
 const Section3 = () => {
   return (
-    <section className="bg bg-white flex flex-col justify-center gap-4 max-w-7xl min-h-[87vh] mx-auto">
+    <section className=" bg-white flex flex-col justify-center gap-4 max-w-7xl min-h-[87vh] mx-auto">
       <div className="flex justify-center flex-col items-center gap-y-5">
         <img
           className="w-40 h-40 mx-auto"
