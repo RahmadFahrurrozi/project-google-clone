@@ -1,5 +1,5 @@
 import React from "react";
-import CardHome from "../components/cards/cardHome";
+import CardHome from "../../components/cards/cardHome";
 
 const Section4 = () => {
   const cardData = [
