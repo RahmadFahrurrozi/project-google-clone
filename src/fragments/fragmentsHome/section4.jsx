@@ -30,9 +30,9 @@ const Section4 = () => {
   ];
   return (
     <section className="bg- min-h-screen flex flex-col lg:flex-row gap-4 mx-auto max-w-7xl items-center px-6">
-      {cardData.map((card, index) => (
+      {cardData.map((card) => (
         <CardHome
-          key={index}
+          key={card.iconLogo}
           iconLogo={card.iconLogo}
           title={card.title}
           hightlightText={card.hightlightText}
