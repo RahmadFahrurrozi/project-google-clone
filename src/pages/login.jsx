@@ -34,7 +34,6 @@ export default function Login() {
               don’t have an account?{" "}
               <span className="cursor-pointer">Register</span>
             </p>
-            {/* <Button></Button> */}
             <Button variant="bg-blue-600">Login</Button>
           </div>
         </div>
