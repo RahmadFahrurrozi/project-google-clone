@@ -7,6 +7,7 @@ import Section4 from "../fragments/fragmentsHome/section4";
 import Section5 from "../fragments/fragmentsHome/section5";
 import Section6 from "../fragments/fragmentsHome/section6";
 import Section7 from "../fragments/fragmentsHome/section7";
+import Section8 from "../fragments/fragmentsHome/section8";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Section5 />
         <Section6 />
         <Section7 />
+        <Section8 />
       </Layout>
     </>
   );

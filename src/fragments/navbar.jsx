@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "../components/button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,13 +9,13 @@ const Navbar = () => {
     <nav className="bg-white/70 backdrop-blur-lg text-slate-900 p-4 flex justify-between items-center sticky top-0 z-50 transition-all duration-300">
       <div className="flex items-center justify-between w-full lg:w-auto">
         <div>
-          <a className="cursor-pointer" href="">
+          <Link className="cursor-pointer" to="/">
             <img
               className="w-24"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
               alt="google logo"
             />
-          </a>
+          </Link>
         </div>
         <button
           className="lg:hidden text-slate-900"
@@ -57,8 +58,12 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex gap-x-3 items-center">
-        <Button variant="bg-blue-600">Daftar</Button>
-        <Button variant="bg-blue-600">Login</Button>
+        <Link to="/login">
+          <Button variant="bg-blue-600">Login</Button>
+        </Link>
+        <Link to="/register">
+          <Button variant="bg-blue-600">Register</Button>
+        </Link>
       </div>
 
       <div
@@ -66,8 +71,12 @@ const Navbar = () => {
           isMenuOpen ? "block" : "hidden"
         } lg:hidden mt-4 flex flex-col gap-y-4`}
       >
-        <Button variant="bg-blue-600">Daftar</Button>
-        <Button variant="bg-blue-600">Login</Button>
+        <Link to="/login">
+          <Button variant="bg-blue-600">Login</Button>
+        </Link>
+        <Link to="/register">
+          <Button variant="bg-blue-600">Register</Button>
+        </Link>
       </div>
     </nav>
   );

@@ -15,7 +15,7 @@ const CardHome = (props) => {
         </span>
       </h3>
       <p className="text-slate-600 text-center">{description}</p>
-      <Button variant="bg-blue-600">Pelajari Lebih Lanjut</Button>
+      <Button variant="bg-blue-600">Selengkapnya</Button>
     </div>
   );
 };
