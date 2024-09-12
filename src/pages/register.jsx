@@ -1,15 +1,15 @@
 import React from "react";
 import AuthLayout from "../layout/authLayout";
-import LeftAuth from "../fragments/fragmentsAuth/left-Auth-Login";
+import LeftAuth from "../fragments/fragmentsAuth/left-Auth-Register";
 import AuthForm from "../fragments/fragmentsAuth/auth-form";
 
-const Login = () => {
+const Register = () => {
   return (
     <AuthLayout>
       <LeftAuth />
-      <AuthForm types="login" />
+      <AuthForm types="register" />
     </AuthLayout>
   );
 };
 
-export default Login;
+export default Register;

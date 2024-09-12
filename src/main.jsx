@@ -5,6 +5,8 @@ import Login from "./pages/login.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/error-404.jsx";
+import Workspace from "./pages/workspace.jsx";
+import Register from "./pages/register.jsx";
 
 const routers = createBrowserRouter([
   {
@@ -18,7 +20,11 @@ const routers = createBrowserRouter([
   },
   {
     path: "/register",
-    element: <div>register</div>,
+    element: <Register />,
+  },
+  {
+    path: "/workspace",
+    element: <Workspace></Workspace>,
   },
 ]);
 

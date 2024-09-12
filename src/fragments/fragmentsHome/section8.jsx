@@ -4,14 +4,6 @@ const Section8 = () => {
   const cardData = [
     {
       iconLogo:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdCcm94abulE0Wl86wchFULHXKM6uh1zorA&s",
-      title: "Google clashroom for",
-      hightlightText: "eductaion",
-      description:
-        "Temukan alat yang mudah untuk mengelola aktivitas pendidikan",
-    },
-    {
-      iconLogo:
         "https://lh3.googleusercontent.com/cS5nvr3r6Q16NoV6IuJLaauz7HNNRPnuHtsHleZ8du594H4EeiOjeNxV-Nq_w-qRA87TUedLQjTmqCG5s6jNZRp29n571FDWyditF-WJhfhQTY_73OM",
       title: "Google clashroom for",
       hightlightText: "searching",
@@ -34,6 +26,14 @@ const Section8 = () => {
       hightlightText: "Menyimpan file",
       description:
         "Setiap hari Google memblokir 25 miliar halaman yang berisi spam dan perilaku penelusuran",
+    },
+    {
+      iconLogo:
+        "https://seeklogo.com/images/G/google-classroom-logo-AD2BE4B278-seeklogo.com.png",
+      title: "Google clashroom for",
+      hightlightText: "eductaion",
+      description:
+        "Temukan alat yang mudah untuk mengelola aktivitas pendidikan",
     },
   ];
   return (

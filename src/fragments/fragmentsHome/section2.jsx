@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../components/button";
 import GoogleText from "../../components/googleText";
+import { Link } from "react-router-dom";
 
 const Section2 = () => {
   return (
@@ -17,9 +18,12 @@ const Section2 = () => {
         <p className="text-slate-800 text-sm sm:text-base my-4 lg:my-6 max-w-md">
           Tingkatkan produktivitas dengan satu pengalaman yang terintegrasi.
         </p>
-        <Button className="py-3 px-6" variant="bg-yellow-400">
-          Selengkapnya
-        </Button>
+
+        <Link to="/workspace">
+          <Button className="py-3 px-6" variant="bg-yellow-400">
+            Selengkapnya
+          </Button>
+        </Link>
       </div>
 
       {/* Bagian Kanan */}
