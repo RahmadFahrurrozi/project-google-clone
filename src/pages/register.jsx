@@ -1,12 +1,12 @@
 import React from "react";
 import AuthLayout from "../layout/authLayout";
-import LeftAuth from "../fragments/fragmentsAuth/left-Auth-Register";
 import AuthForm from "../fragments/fragmentsAuth/auth-form";
+import LeftAuth from "../fragments/fragmentsAuth/left-auth";
 
 const Register = () => {
   return (
     <AuthLayout>
-      <LeftAuth />
+      <LeftAuth types="register" />
       <AuthForm types="register" />
     </AuthLayout>
   );
